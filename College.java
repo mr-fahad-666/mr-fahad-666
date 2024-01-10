@@ -17,7 +17,7 @@ class Student {
 
 class College {
     void m1() {
-        Student s = new Student(101, "SHRISHA", "fULL sTACH", 79998989L, "aMEERTPET");
+        Student s = new Student(101, "HK", "fULL sTACH", 79998989L, "aMEERTPET");
         System.out.println("RollNo " + s.rollNo);
         System.out.println("Name " + s.sName);
         System.out.println("Course " + s.scourse);
@@ -27,7 +27,7 @@ class College {
     }
 
     Student m2() {
-        Student s = new Student(102, "FAHAD", "fULL sTACH", 8686020767L, "malakpet");
+        Student s = new Student(102, "BK", "fULL sTACH", 8686020767L, "malakpet");
         System.out.println();
         System.out.println("RollNo " + s.rollNo);
         System.out.println("Name " + s.sName);
